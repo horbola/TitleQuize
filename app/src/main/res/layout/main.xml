@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cons_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constitution" />
+    <Button
+        android:id="@+id/crpc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRPC" />
+    <Button
+        android:id="@+id/pc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PC" />
+    <Button
+        android:id="@+id/cpc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPC" />
+
+</LinearLayout>
